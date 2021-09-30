@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Request a Refund</name>
+        <order/>
+        <roles>x_snc_refund.request_a_refund_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 20:08:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab13d05bfd7230107f44e513dec371a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request a Refund</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+        <sys_update_name>sys_ui_application_ab13d05bfd7230107f44e513dec371a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 20:14:57</sys_updated_on>
+    </sys_ui_application>
+</record_update>

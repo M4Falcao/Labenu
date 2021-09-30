@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>383f0897fd7230107f44e513dec37166</logo>
+        <menu/>
+        <name>Refund</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_snc_refund</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>you can make a request for a refund</short_description>
+        <source>x_snc_refund</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 19:51:13</sys_created_on>
+        <sys_id>a43f0097fd7230107f44e513dec37164</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 19:51:16</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>eating_placesreserve_restaurant_bar_food_icon_193788 (1).png</file_name>
+        <hash>27714db422205d7fee92ff5193bf68b08f419f83045c4ce2af6d2d8228457253</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2127</size_bytes>
+        <size_compressed>2051</size_compressed>
+        <state>available_conditionally</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 19:51:15</sys_created_on>
+        <sys_id>383f0897fd7230107f44e513dec37166</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 02:03:56</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>a43f0097fd7230107f44e513dec37164</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="eating_placesreserve_restaurant_bar_food_icon_193788 (1).png" sys_id="383f0897fd7230107f44e513dec37166">383f0897fd7230107f44e513dec37166</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 19:51:15</sys_created_on>
+        <sys_id>bc3f0897fd7230107f44e513dec37166</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2724</length>
+        <position>1</position>
+        <sys_attachment display_value="eating_placesreserve_restaurant_bar_food_icon_193788 (1).png" sys_id="383f0897fd7230107f44e513dec37166">383f0897fd7230107f44e513dec37166</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 19:51:15</sys_created_on>
+        <sys_id>703f0897fd7230107f44e513dec37167</sys_id>
+    </sys_attachment_doc>
+</record_update>

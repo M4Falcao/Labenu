@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="request a refund" max_length="40" name="x_snc_refund_request" type="collection">
+        <element label="Direct Manager" max_length="32" name="direct_manager" reference="sys_user" type="reference"/>
+        <element label="Email" mandatory="true" max_length="32" name="email" reference="sys_user" type="reference"/>
+        <element label="Invoice" max_length="40" name="invoice" type="user_image"/>
+        <element label="Name of applicant" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Price" mandatory="true" max_length="20" name="price" type="price"/>
+        <element choice="1" label="Type of expense" mandatory="true" max_length="40" name="type_of_expense" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alimentação" sequence="0" value="alimentação"/>
+                <element inactive_on_update="false" label="Transporte" sequence="1" value="transporte"/>
+                <element inactive_on_update="false" label="Serviços gerais" sequence="2" value="serviços_gerais"/>
+                <element inactive_on_update="false" label="Consertos" sequence="3" value="consertos"/>
+                <element inactive_on_update="false" label="Locação" sequence="4" value="locação"/>
+                <element inactive_on_update="false" label="Outros" sequence="5" value="outros"/>
+            </choice>
+        </element>
+    </element>
+</database>

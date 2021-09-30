@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_expense" table="x_snc_refund_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_expense</element>
+            <name>x_snc_refund_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 20:49:27</sys_created_on>
+            <sys_id>d18c1813fdb230107f44e513dec37115</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_expense</sys_name>
+            <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+            <sys_update_name>sys_choice_x_snc_refund_request_type_of_expense</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alimentação</label>
+            <language>en</language>
+            <name>x_snc_refund_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 20:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>598c1813fdb230107f44e513dec37114</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
+            <value>alimentação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transporte</label>
+            <language>en</language>
+            <name>x_snc_refund_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 20:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>198c1813fdb230107f44e513dec37117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
+            <value>transporte</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Serviços gerais</label>
+            <language>en</language>
+            <name>x_snc_refund_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 20:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d58c1813fdb230107f44e513dec37119</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
+            <value>serviços_gerais</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consertos</label>
+            <language>en</language>
+            <name>x_snc_refund_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 20:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>958c1813fdb230107f44e513dec3711b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
+            <value>consertos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Locação</label>
+            <language>en</language>
+            <name>x_snc_refund_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 20:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>558c1813fdb230107f44e513dec3711d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
+            <value>locação</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outros</label>
+            <language>en</language>
+            <name>x_snc_refund_request</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 20:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>158c1813fdb230107f44e513dec3711f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
+            <value>outros</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
