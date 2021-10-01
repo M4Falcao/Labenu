@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request a refund">0e1ab227703230107f4419ed5f17fe5e</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 02:56:23</sys_created_on>
+        <sys_id>821ab227703230107f4419ed5f17fe66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request a refund</sys_name>
+        <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_821ab227703230107f4419ed5f17fe66</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 02:56:23</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">a43f0097fd7230107f44e513dec37164</application>
+        <file_path/>
+        <instance_id>0de116a1db7e7c94d2c8e797059619ca</instance_id>
+        <instance_name>qrc3-aug-677-016</instance_name>
+        <name>sc_cat_item_catalog_821ab227703230107f4419ed5f17fe66</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request a refund">0e1ab227703230107f4419ed5f17fe5e</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-01 02:56:23</sys_created_on><sys_id>821ab227703230107f4419ed5f17fe66</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request a refund</sys_name><sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package><sys_policy/><sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope><sys_update_name>sc_cat_item_catalog_821ab227703230107f4419ed5f17fe66</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-01 02:56:23</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1767141592</payload_hash>
+        <record_name>Service Catalog.Request a refund</record_name>
+        <reverted_from/>
+        <source>f3b8fea3703230107f4419ed5f17feb8</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-01 02:56:23</sys_created_on>
+        <sys_id>8e1ab227703230107f4419ed5f17fe69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c39c809610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-01 02:56:23</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c61ab22759323010b5b6f75704b0e469</update_guid>
+        <update_guid_history>c61ab22759323010b5b6f75704b0e469:-1767141592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request a refund">672cb6a7703230107f4419ed5f17fe62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-01 03:05:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>519eb23e8a7749d0ae1ba173366a6064</sys_id>
+        <sys_metadata>821ab227703230107f4419ed5f17fe66</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request a refund</sys_name>
+        <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+        <sys_parent display_value="Request a refund">0e1ab227703230107f4419ed5f17fe5e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+        <sys_scope_delete display_value="">2eaa678ce9b0470b811c7885a2874241</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_821ab227703230107f4419ed5f17fe66</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_821ab227703230107f4419ed5f17fe66">8e1ab227703230107f4419ed5f17fe69</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-01 03:05:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

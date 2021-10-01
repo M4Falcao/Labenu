@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>1daa4193fd3630107f44e513dec37150</sys_id>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>e875c7ef703230107f4419ed5f17fe19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,41 +18,41 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>9daa4193fd3630107f44e513dec37150</sys_id>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>a075c7ef703230107f4419ed5f17fe1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>email</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>11aa4193fd3630107f44e513dec37151</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>invoice</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>91aa4193fd3630107f44e513dec37151</sys_id>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>2475c7ef703230107f4419ed5f17fe1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>a475c7ef703230107f4419ed5f17fe1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,55 +60,55 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>15aa4193fd3630107f44e513dec37151</sys_id>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>2875c7ef703230107f4419ed5f17fe1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>price</element>
+            <element>state</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>95aa4193fd3630107f44e513dec37151</sys_id>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>a875c7ef703230107f4419ed5f17fe1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>2c75c7ef703230107f4419ed5f17fe1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>19aa4193fd3630107f44e513dec37151</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>direct_manager</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>99aa4193fd3630107f44e513dec37151</sys_id>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>ac75c7ef703230107f4419ed5f17fe1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>type_of_expense</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-30 00:10:59</sys_created_on>
-            <sys_id>1daa4193fd3630107f44e513dec37151</sys_id>
+            <sys_created_on>2021-10-01 03:45:58</sys_created_on>
+            <sys_id>2075c7ef703230107f4419ed5f17fe1b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">39ac5813fdb230107f44e513dec37166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-30 00:10:59</sys_updated_on>
+            <sys_updated_on>2021-10-01 03:45:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
