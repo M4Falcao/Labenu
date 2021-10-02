@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Refunds">570d2808f48730107f449007c88731ed</applet_launcher>
+        <order>10</order>
+        <section display_value="My refunds">b85fa088f48730107f449007c8873123</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 06:07:04</sys_created_on>
+        <sys_id>bc5fa088f48730107f449007c8873127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_bc5fa088f48730107f449007c8873127</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 06:07:04</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

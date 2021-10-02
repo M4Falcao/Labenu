@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="DELETE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Refund</name>
+        <required_roles/>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 05:57:24</sys_created_on>
+        <sys_id>d71da448f48730107f449007c8873191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refunds</sys_name>
+        <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_d71da448f48730107f449007c8873191</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 05:57:24</sys_updated_on>
+        <title>Refunds</title>
+    </sys_sg_applet_launcher>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">a43f0097fd7230107f44e513dec37164</application>
+        <file_path/>
+        <instance_id>0de116a1db7e7c94d2c8e797059619ca</instance_id>
+        <instance_name>qrc3-aug-677-016</instance_name>
+        <name>sys_sg_applet_launcher_d71da448f48730107f449007c8873191</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher"><sys_sg_applet_launcher action="INSERT_OR_UPDATE"><active>true</active><available_offline>false</available_offline><header_button/><header_titles/><hide_empty_sections>true</hide_empty_sections><name>Refund</name><required_roles/><search_config/><sys_class_name>sys_sg_applet_launcher</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-02 05:57:24</sys_created_on><sys_id>d71da448f48730107f449007c8873191</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Refunds</sys_name><sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package><sys_policy/><sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope><sys_update_name>sys_sg_applet_launcher_d71da448f48730107f449007c8873191</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-02 05:57:24</sys_updated_on><title>Refunds</title></sys_sg_applet_launcher></record_update>]]></payload>
+        <payload_hash>577524487</payload_hash>
+        <record_name>Refunds</record_name>
+        <reverted_from/>
+        <source>f3b8fea3703230107f4419ed5f17feb8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 05:57:24</sys_created_on>
+        <sys_id>571da448f48730107f449007c8873193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c3f941e970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 05:57:24</sys_updated_on>
+        <type>Applet Launcher</type>
+        <update_guid>9f1da4485c8730106fbdc25cea299692</update_guid>
+        <update_guid_history>9f1da4485c8730106fbdc25cea299692:577524487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 06:01:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher">sys_sg_applet_launcher</sys_db_object>
+        <sys_id>08339b8152584e35b813ce08cd749b01</sys_id>
+        <sys_metadata>d71da448f48730107f449007c8873191</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refunds</sys_name>
+        <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+        <sys_scope_delete display_value="">2eaa678ce9b0470b811c7885a2874241</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_d71da448f48730107f449007c8873191</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_d71da448f48730107f449007c8873191">571da448f48730107f449007c8873193</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 06:01:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
