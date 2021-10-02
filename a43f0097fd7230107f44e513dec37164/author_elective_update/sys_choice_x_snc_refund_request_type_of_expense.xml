@@ -21,7 +21,7 @@
             <element>type_of_expense</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Alimentação</label>
+            <label>Food</label>
             <language>en</language>
             <name>x_snc_refund_request</name>
             <sequence>0</sequence>
@@ -31,17 +31,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>598c1813fdb230107f44e513dec37114</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
-            <value>alimentação</value>
+            <sys_updated_on>2021-10-02 04:15:41</sys_updated_on>
+            <value>food</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_expense</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Transporte</label>
+            <label>Transport</label>
             <language>en</language>
             <name>x_snc_refund_request</name>
             <sequence>1</sequence>
@@ -51,17 +51,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>198c1813fdb230107f44e513dec37117</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
-            <value>transporte</value>
+            <sys_updated_on>2021-10-02 04:16:12</sys_updated_on>
+            <value>transport</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_expense</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Serviços gerais</label>
+            <label>General Services</label>
             <language>en</language>
             <name>x_snc_refund_request</name>
             <sequence>2</sequence>
@@ -71,17 +71,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d58c1813fdb230107f44e513dec37119</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
-            <value>serviços_gerais</value>
+            <sys_updated_on>2021-10-02 04:16:50</sys_updated_on>
+            <value>general_services</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_expense</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Consertos</label>
+            <label>Repairs</label>
             <language>en</language>
             <name>x_snc_refund_request</name>
             <sequence>3</sequence>
@@ -91,17 +91,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>958c1813fdb230107f44e513dec3711b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
-            <value>consertos</value>
+            <sys_updated_on>2021-10-02 04:17:09</sys_updated_on>
+            <value>repairs</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_expense</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Locação</label>
+            <label>Tenancy</label>
             <language>en</language>
             <name>x_snc_refund_request</name>
             <sequence>4</sequence>
@@ -111,17 +111,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>558c1813fdb230107f44e513dec3711d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
-            <value>locação</value>
+            <sys_updated_on>2021-10-02 04:18:00</sys_updated_on>
+            <value>tenancy</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_expense</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Outros</label>
+            <label>Others</label>
             <language>en</language>
             <name>x_snc_refund_request</name>
             <sequence>5</sequence>
@@ -131,10 +131,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>158c1813fdb230107f44e513dec3711f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 20:49:27</sys_updated_on>
-            <value>outros</value>
+            <sys_updated_on>2021-10-02 04:18:22</sys_updated_on>
+            <value>others</value>
         </sys_choice>
     </sys_choice>
 </record_update>

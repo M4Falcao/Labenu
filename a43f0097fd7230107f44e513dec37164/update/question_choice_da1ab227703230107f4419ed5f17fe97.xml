@@ -8,16 +8,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-01 03:01:12</sys_created_on>
         <sys_id>da1ab227703230107f4419ed5f17fe97</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Alimentação</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Food</sys_name>
         <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
         <sys_update_name>question_choice_da1ab227703230107f4419ed5f17fe97</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-01 03:05:31</sys_updated_on>
-        <text>Alimentação</text>
-        <value>alimentação</value>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 04:37:59</sys_updated_on>
+        <text>Food</text>
+        <value>food</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=da1ab227703230107f4419ed5f17fe97"/>
 </record_update>

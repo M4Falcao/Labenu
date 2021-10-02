@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="request a refund" max_length="40" name="x_snc_refund_request" sizeclass="2" type="collection">
+    <element audit="true" extends="task" label="request a refund" max_length="40" name="x_snc_refund_request" sizeclass="11" type="collection">
         <element label="Direct Manager" max_length="32" name="direct_manager" read_only="true" reference="sys_user" type="reference"/>
         <element label="Invoice" max_length="40" name="invoice" type="user_image"/>
         <element label="Name of applicant" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Price" mandatory="true" max_length="20000" name="price" type="decimal"/>
         <element choice="1" label="Type of expense" mandatory="true" max_length="40" name="type_of_expense" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Alimentação" sequence="0" value="alimentação"/>
-                <element inactive_on_update="false" label="Transporte" sequence="1" value="transporte"/>
-                <element inactive_on_update="false" label="Serviços gerais" sequence="2" value="serviços_gerais"/>
-                <element inactive_on_update="false" label="Consertos" sequence="3" value="consertos"/>
-                <element inactive_on_update="false" label="Locação" sequence="4" value="locação"/>
-                <element inactive_on_update="false" label="Outros" sequence="5" value="outros"/>
+                <element inactive_on_update="false" label="Food" sequence="0" value="food"/>
+                <element inactive_on_update="false" label="Transport" sequence="1" value="transport"/>
+                <element inactive_on_update="false" label="General Services" sequence="2" value="general_services"/>
+                <element inactive_on_update="false" label="Repairs" sequence="3" value="repairs"/>
+                <element inactive_on_update="false" label="Tenancy" sequence="4" value="tenancy"/>
+                <element inactive_on_update="false" label="Others" sequence="5" value="others"/>
             </choice>
         </element>
     </element>

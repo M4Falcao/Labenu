@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.31",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "770b8c6833c641e68689c427266eab4e": {
+          "id": "770b8c6833c641e68689c427266eab4e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Lets create a request for a refund for you, "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "6bff12f9ee4d439e9e8303cd48d13930": {
+          "id": "6bff12f9ee4d439e9e8303cd48d13930",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "thanks for the application, now wait for confirmation by email."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "fd3da89eda0d42039ceafacd8ac7f43c": {
+          "id": "fd3da89eda0d42039ceafacd8ac7f43c",
+          "stepType": "Prompt",
+          "name": "price",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please, say the price"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "329d6f1344f641b785660fc1b1b2e064",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "44a707b4943e4a44a37aa0e58dae9e42": {
+          "stepType": "ChoicePrompt",
+          "name": "typy",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Now, what is the type of expense?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "871f1cd505114654b3ef011ede9d5f68",
+          "id": "44a707b4943e4a44a37aa0e58dae9e42",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "ad0d0e4449264859b2c20298ad836b7c": {
+          "id": "ad0d0e4449264859b2c20298ad836b7c",
+          "stepType": "CrudAction",
+          "name": "create a request",
+          "template": "name={{vaInputs.user}}^price={{vaInputs.price}}^type_of_expense={{vaInputs.typy}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "2e5d8d9b84fe4da891b9857aae0e9d12"
+        },
+        "e9649722efd04fc193c085d416bb3286": {
+          "id": "e9649722efd04fc193c085d416bb3286",
+          "stepType": "RecordOutput",
+          "name": "show created",
+          "variableId": "2e5d8d9b84fe4da891b9857aae0e9d12",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_snc_refund_request",
+          "fields": [
+            "name",
+            "price",
+            "type_of_expense",
+            "sys_id"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "6eaae5d9e87e499ab9f8cbe9b25a665b": {
+          "id": "6eaae5d9e87e499ab9f8cbe9b25a665b",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "4e8a0191a3e9406b971ce2d4fed1ffd0": {
+          "id": "4e8a0191a3e9406b971ce2d4fed1ffd0",
+          "stepType": "Prompt",
+          "name": "invoice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You want add a invoice?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "d6257b4206a8493294089d66a1358d23"
+        },
+        "211c84dfa78a4c11a56ee9e17947e058": {
+          "id": "211c84dfa78a4c11a56ee9e17947e058",
+          "stepType": "CrudAction",
+          "name": "create a request with invoice",
+          "template": "name={{vaInputs.user}}^sys_class_name={{vaInputs.typy}}^price={{vaInputs.price}}^invoice={{vaInputs.the_invoice}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "bc7d3af4116c4606b793c4433fd91da0"
+        },
+        "2dcf83d8bc3545f38b026c707f376347": {
+          "id": "2dcf83d8bc3545f38b026c707f376347",
+          "stepType": "Prompt",
+          "name": "the invoice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Add your invoice here"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "648122879b684236905ea8406be7fbe6"
+        },
+        "021028c384b24e71ae302484094655bd": {
+          "id": "021028c384b24e71ae302484094655bd",
+          "stepType": "RecordOutput",
+          "name": "show created with",
+          "variableId": "bc7d3af4116c4606b793c4433fd91da0",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_snc_refund_request",
+          "fields": [
+            "name",
+            "price",
+            "type_of_expense",
+            "invoice"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "4831980090ec4689a29c447c001d0871",
+          "edgeType": "Edge",
+          "source": "770b8c6833c641e68689c427266eab4e",
+          "target": "fd3da89eda0d42039ceafacd8ac7f43c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f4f680016ab844fb9159143e4fc5521a",
+          "edgeType": "Edge",
+          "source": "fd3da89eda0d42039ceafacd8ac7f43c",
+          "target": "44a707b4943e4a44a37aa0e58dae9e42",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e6373216735844119fa7051a5beab928",
+          "edgeType": "Edge",
+          "source": "ad0d0e4449264859b2c20298ad836b7c",
+          "target": "e9649722efd04fc193c085d416bb3286",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5d8a55d4a90749769b23cb84b5cc3f16",
+          "edgeType": "Edge",
+          "source": "e9649722efd04fc193c085d416bb3286",
+          "target": "6bff12f9ee4d439e9e8303cd48d13930",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c5a6a38ac580490eac74f0472c537148",
+          "edgeType": "Branch",
+          "source": "6eaae5d9e87e499ab9f8cbe9b25a665b",
+          "target": "ad0d0e4449264859b2c20298ad836b7c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.invoice=",
+            "mode": "query"
+          },
+          "label": "not invoice"
+        },
+        {
+          "id": "58cb4c7ab70a4c209b4ef93a3fe85aa8",
+          "edgeType": "Edge",
+          "source": "44a707b4943e4a44a37aa0e58dae9e42",
+          "target": "4e8a0191a3e9406b971ce2d4fed1ffd0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6b2a3cda98344928b20d9ae991e2550e",
+          "edgeType": "Edge",
+          "source": "4e8a0191a3e9406b971ce2d4fed1ffd0",
+          "target": "6eaae5d9e87e499ab9f8cbe9b25a665b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9669dd1ccf464bcc875ebb40f0988ab1",
+          "edgeType": "Branch",
+          "source": "6eaae5d9e87e499ab9f8cbe9b25a665b",
+          "target": "2dcf83d8bc3545f38b026c707f376347",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.invoice=true",
+            "mode": "query"
+          },
+          "label": "invoice"
+        },
+        {
+          "id": "06e29145861244bf99d5978559877ca5",
+          "edgeType": "Edge",
+          "source": "2dcf83d8bc3545f38b026c707f376347",
+          "target": "211c84dfa78a4c11a56ee9e17947e058",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4884bb179fa94600b4ad0e9ff0033db9",
+          "edgeType": "Edge",
+          "source": "211c84dfa78a4c11a56ee9e17947e058",
+          "target": "021028c384b24e71ae302484094655bd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5b586db6145a42f5b6bf04ed68d5882b",
+          "edgeType": "Edge",
+          "source": "021028c384b24e71ae302484094655bd",
+          "target": "6bff12f9ee4d439e9e8303cd48d13930",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "329d6f1344f641b785660fc1b1b2e064": {
+      "id": "329d6f1344f641b785660fc1b1b2e064",
+      "name": "price",
+      "label": "Price",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTYzMzE0Nzg5MDE0MyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "871f1cd505114654b3ef011ede9d5f68": {
+      "id": "871f1cd505114654b3ef011ede9d5f68",
+      "name": "typy",
+      "label": "Typy",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Food",
+          "value": "food"
+        },
+        {
+          "label": "Transport",
+          "value": "transport",
+          "checked": true
+        },
+        {
+          "label": "General Services",
+          "value": "general_services",
+          "checked": true
+        },
+        {
+          "label": "Repais",
+          "value": "repairs",
+          "checked": true
+        },
+        {
+          "label": "Tenancy",
+          "value": "tenancy",
+          "checked": true
+        },
+        {
+          "label": "Others",
+          "value": "others",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "2e5d8d9b84fe4da891b9857aae0e9d12": {
+      "id": "2e5d8d9b84fe4da891b9857aae0e9d12",
+      "name": "create_a_request",
+      "label": "Create A Request",
+      "varType": "reference",
+      "table": "x_snc_refund_request",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "d6257b4206a8493294089d66a1358d23": {
+      "id": "d6257b4206a8493294089d66a1358d23",
+      "name": "invoice",
+      "label": "Invoice",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    },
+    "bc7d3af4116c4606b793c4433fd91da0": {
+      "id": "bc7d3af4116c4606b793c4433fd91da0",
+      "name": "create_a_request_with_invoice",
+      "label": "Create A Request With Invoice",
+      "varType": "reference",
+      "table": "x_snc_refund_request",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "648122879b684236905ea8406be7fbe6": {
+      "id": "648122879b684236905ea8406be7fbe6",
+      "name": "the_invoice",
+      "label": "The Invoice",
+      "varType": "image",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>request a refund,refund,request,invoice,expense</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>request a refund</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles>x_snc_refund.request_solver,x_snc_refund.request_user</roles>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-02 04:10:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>479490c0f44730107f449007c887314b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>request a refund</sys_name>
+        <sys_package display_value="Refund" source="x_snc_refund">a43f0097fd7230107f44e513dec37164</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">a43f0097fd7230107f44e513dec37164</sys_scope>
+        <sys_update_name>sys_cb_topic_479490c0f44730107f449007c887314b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-02 04:30:32</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=479490c0f44730107f449007c887314b"/>
+</record_update>

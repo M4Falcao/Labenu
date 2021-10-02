@@ -1,100 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Additional Informations" section_id="2200ec93fdb230107f44e513dec3711c" sys_domain="global" table="x_snc_refund_request" version="3" view="Solver">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_at</element>
+            <element>assigned_to</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-29 21:04:50</sys_created_on>
-            <sys_id>3e00ec93fdb230107f44e513dec3714f</sys_id>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>47b86db71d7230107f449d5a5f905311</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 21:04:50</sys_updated_on>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>0fb86db71d7230107f449d5a5f905311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_on</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-29 21:04:50</sys_created_on>
-            <sys_id>be00ec93fdb230107f44e513dec3714f</sys_id>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>8fb86db71d7230107f449d5a5f905311</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 21:04:50</sys_updated_on>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_mod_count</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-29 21:04:50</sys_created_on>
-            <sys_id>3200ec93fdb230107f44e513dec37150</sys_id>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>03b86db71d7230107f449d5a5f905312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 21:04:50</sys_updated_on>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-29 21:04:50</sys_created_on>
-            <sys_id>b200ec93fdb230107f44e513dec37150</sys_id>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>83b86db71d7230107f449d5a5f905312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 21:04:50</sys_updated_on>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_by</element>
-            <position>4</position>
+            <element>assignment_group</element>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-29 21:04:50</sys_created_on>
-            <sys_id>3600ec93fdb230107f44e513dec37150</sys_id>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>07b86db71d7230107f449d5a5f905312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 21:04:50</sys_updated_on>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>87b86db71d7230107f449d5a5f905312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_by</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-29 21:04:50</sys_created_on>
-            <sys_id>b600ec93fdb230107f44e513dec37150</sys_id>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>0bb86db71d7230107f449d5a5f905312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 21:04:50</sys_updated_on>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-29 21:04:50</sys_created_on>
-            <sys_id>3a00ec93fdb230107f44e513dec37150</sys_id>
+            <sys_created_on>2021-10-01 15:39:24</sys_created_on>
+            <sys_id>8bb86db71d7230107f449d5a5f905312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Informations" display_value="Additional Informations" name="x_snc_refund_request" sys_domain="global" view="fdac5813fdb230107f44e513dec37162">2200ec93fdb230107f44e513dec3711c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-29 21:04:50</sys_updated_on>
+            <sys_updated_on>2021-10-01 15:39:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
